@@ -25,30 +25,30 @@ Este repositório contém o código-fonte de um projeto desenvolvido para auxili
 ### Instalação
 
 1. Clone este repositório:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/YuriGarciaRibeiro/codingDojo-baneseLabs.git
-   \`\`\`
+   ```
 2. Navegue até o diretório do projeto:
-   \`\`\`bash
+   ```bash
    cd codingDojo-baneseLabs
-   \`\`\`
+   ```
 3. Construa o projeto usando o CLI do .NET:
-   \`\`\`bash
+   ```bash
    dotnet build
-   \`\`\`
+   ```
 
 ### Executando o Projeto
 
 Para executar a API Web localmente:
-\`\`\`bash
+```bash
 dotnet run --project WebApi
-\`\`\`
+```
 
 Para construir e executar o projeto usando Docker:
-\`\`\`bash
+```bash
 docker build -t codingdojo-baneselabs .
 docker run -d -p 8080:80 codingdojo-baneselabs
-\`\`\`
+```
 
 ## Contribuindo
 
